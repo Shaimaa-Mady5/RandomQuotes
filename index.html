@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/3057671_media_quote_social_icon.ico" type="image/x-icon">
+    <title>Quotes</title>
+
+    <!-- ===== Google fonts ===== -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+
+    <!-- ===== Css files ===== -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <header id="home" class="text-center">
+
+      <h1 class=" py-4">Quote of the Day</h1>
+      <p class="text-white explain-button">
+        Press the button below to receive a random quote!
+      </p>
+      <button onclick="quoteAppears();cardAppears();"  class=" btn home-btn text-capitalize px-5 py-3">new quote</button>
+    <div id="quoteDetails" class="quote-details">
+      <span class="up-double-quote"><i class="fa-solid fa-quote-left"></i></span>
+      <span class="down-double-quote"><i class="fa-solid fa-quote-right"></i></span>
+        <div id="quoteImg" class="quote-img"><img src="images/q7.jpg" alt="Mae West"></div>
+        <p id="quote" class="quote ">You only live once, but if you do it right, once is enough.</p>
+        <p id="quotesWriter" class="quote-writer">- Mae West -</p>
+      </div>
+    
+
+    </header>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
+</html>
